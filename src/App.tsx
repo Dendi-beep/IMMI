@@ -32,7 +32,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
-              <span className="text-red-700 font-bold text-2xl animate-float">ORGANIX</span>
+              <span className="text-red-700 font-bold text-2xl animate-float">IMMI</span>
             </div>
             
             {/* Desktop Menu */}
@@ -185,7 +185,7 @@ function App() {
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700">Pesan</label>
                 <textarea id="message" rows={4} className="mt-1 block w-full rounded-md shadow-sm"></textarea>
               </div>
-              <button type="submit" className="button-hover w-full bg-red-700 text-white px-6 py-3 rounded-md hover:bg-red-800 animate-slide-up" style={{ animationDelay: '0.4s' }}>
+              <button type="submit" className="button-hover w-full bg-red-700 text-white px-6 py-3 rounded-full hover:bg-red-800 animate-slide-up" style={{ animationDelay: '0.4s' }}>
                 Kirim Pesan
               </button>
             </form>
@@ -198,14 +198,14 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="animate-slide-in-left">
-              <h3 className="text-xl font-bold mb-4 animate-float">ORGANIX</h3>
+              <h3 className="text-xl font-bold mb-4 animate-float">IMMI</h3>
               <p className="text-gray-400">Membentuk generasi muda yang berkualitas dan berdaya saing tinggi.</p>
             </div>
             <div className="animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
               <h3 className="text-xl font-bold mb-4">Kontak</h3>
-              <p className="text-gray-400">Gedung Fakultas, Lantai 2</p>
-              <p className="text-gray-400">Kampus Universitas</p>
-              <p className="text-gray-400">Email: info@organix.ac.id</p>
+              <p className="text-gray-400">Universitas Maha Karya Asia Baturaja</p>
+              <p className="text-gray-400">Kampus Teknologi</p>
+              <p className="text-gray-400">Email: unmaha.ac.id</p>
             </div>
             <div className="animate-slide-in-left" style={{ animationDelay: '0.4s' }}>
               <h3 className="text-xl font-bold mb-4">Sosial Media</h3>
