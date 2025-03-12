@@ -232,6 +232,14 @@ function App() {
               </div>
             </div>
           </div>
+          <div className="animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
+              <h3 className="text-xl font-bold mb-4">Powerd By</h3>
+              <p className="text-gray-400">React Js</p>
+              <p className="text-gray-400">Component Shacdn</p>
+              <p className="text-gray-400">Vite</p>
+              <p className="text-gray-400">Deploy By Vercel</p>
+              <p className="text-gray-400">Tailwindcss</p>
+            </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2024 IMMI. All rights reserved.</p>
           </div>
