@@ -201,7 +201,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
             <div className="animate-slide-in-left">
               <img src={logo} className="h-20 w-15 -ml-4" alt="" />
               <h3 className="text-xl font-bold mb-4 animate-float">IMMI</h3>
@@ -215,7 +215,7 @@ function App() {
             </div>
             <div className="animate-slide-in-left" style={{ animationDelay: '0.4s' }}>
               <h3 className="text-xl font-bold mb-4">Sosial Media</h3>
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 text-center md:text-left">
                 {[
                   { icon: <Facebook size={24} />, href: "https://web.facebook.com/share/g/16AdNrpZp4/" },
                   { icon: <Instagram size={24} />, href: "https://www.instagram.com/immi_unmahabaturaja?igsh=MzRlODBiNWFlZA==" },
@@ -231,8 +231,7 @@ function App() {
                 ))}
               </div>
             </div>
-          </div>
-          <div className="animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
+            <div className="animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
               <h3 className="text-xl font-bold mb-4">Powered By</h3>
               <p className="text-gray-400">React Js</p>
               <p className="text-gray-400">Component Shacdn</p>
@@ -240,6 +239,8 @@ function App() {
               <p className="text-gray-400">Deploy By Vercel</p>
               <p className="text-gray-400">Tailwindcss</p>
             </div>
+          </div>
+          
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
             <p>&copy; 2024 IMMI. All rights reserved.</p>
           </div>
