@@ -201,7 +201,7 @@ function App() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-4 gap-8">
             <div className="animate-slide-in-left">
               <img src={logo} className="h-20 w-15 -ml-4" alt="" />
               <h3 className="text-xl font-bold mb-4 animate-float">IMMI</h3>
@@ -233,7 +233,7 @@ function App() {
             </div>
           </div>
           <div className="animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
-              <h3 className="text-xl font-bold mb-4">Powerd By</h3>
+              <h3 className="text-xl font-bold mb-4">Powered By</h3>
               <p className="text-gray-400">React Js</p>
               <p className="text-gray-400">Component Shacdn</p>
               <p className="text-gray-400">Vite</p>
