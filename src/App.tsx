@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Menu, X, Users, Award, BookOpen, ChevronRight, Facebook, Instagram, Twitter, ArrowUp } from 'lucide-react';
+import logo from './assets/logo1.png';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -30,10 +31,14 @@ function App() {
       {/* Navigation */}
       <nav className="bg-white/80 backdrop-blur-md shadow-lg fixed w-full z-50 transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between h-16">
+          <div className="flex justify-between h-20">
             <div className="flex items-center">
-              <span className="text-red-700 font-bold text-2xl animate-float">IMMI</span>
+              <img src={logo} className="h-20 w-15" alt="IMMI" />
+              <span className="text-red-700 font-bold text-3xl animate-float">IMMI</span>
+              
             </div>
+
+           
             
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8">
@@ -74,7 +79,7 @@ function App() {
               Membentuk Generasi Muda yang Berkualitas dan Berdaya Saing
             </p>
             <button className="button-hover bg-white text-red-700 px-8 py-3 rounded-full font-semibold hover:bg-red-50 transition-all duration-300 inline-flex items-center animate-slide-up" style={{ animationDelay: '0.4s' }}>
-              Bergabung Sekarang
+              <a href="https://www.instagram.com/immi_unmahabaturaja?igsh=MzRlODBiNWFlZA==">Bergabung Sekarang </a>
               <ChevronRight className="ml-2" size={20} />
             </button>
           </div>
@@ -198,6 +203,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="animate-slide-in-left">
+              <img src={logo} className="h-20 w-15 -ml-4" alt="" />
               <h3 className="text-xl font-bold mb-4 animate-float">IMMI</h3>
               <p className="text-gray-400">Membentuk generasi muda yang berkualitas dan berdaya saing tinggi.</p>
             </div>
@@ -211,9 +217,9 @@ function App() {
               <h3 className="text-xl font-bold mb-4">Sosial Media</h3>
               <div className="flex space-x-4">
                 {[
-                  { icon: <Facebook size={24} />, href: "#" },
-                  { icon: <Instagram size={24} />, href: "#" },
-                  { icon: <Twitter size={24} />, href: "#" }
+                  { icon: <Facebook size={24} />, href: "https://web.facebook.com/share/g/16AdNrpZp4/" },
+                  { icon: <Instagram size={24} />, href: "https://www.instagram.com/immi_unmahabaturaja?igsh=MzRlODBiNWFlZA==" },
+                  { icon: <Twitter size={24} />, href: "https://github.com/Dendi-beep/" }
                 ].map((social, index) => (
                   <a 
                     key={index}
@@ -227,7 +233,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 ORGANIX. All rights reserved.</p>
+            <p>&copy; 2024 IMMI. All rights reserved.</p>
           </div>
         </div>
       </footer>
